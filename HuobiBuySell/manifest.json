@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Huobi Bot Buy Sell",
+    "version": "0.1",
+    "description": "Bismillah semoga berkah",
+    "permissions": [
+      "storage",
+      "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.huobi.com/*"
+          ],
+          "js": ["jquery-3.4.1.min.js", "responsivevoice.js", "content.js"]
+        }
+      ]
+}
